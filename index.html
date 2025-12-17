@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Belleville Running Club</title>
+        <!-- Favicon---------------------------------------------------------------------------------------------------------------->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io (1)/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io (1)/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io (1)/favicon-16x16.png">
+        <link rel="manifest" href="assets/favicon_io (1)/site.webmanifest">
+        <!-- Bootstrap Icons---------------------------------------------------------------------------------------------------->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+        <!-- FontAwesome Icons----------------------------------------------------------------------------------------------------->
+         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts---------------------------------------------------------------------------------------------------------->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css">
+        <!-- SimpleLightbox plugin CSS---------------------------------------------------------------------------------------->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet">
+        <!-- Core theme CSS (includes Bootstrap)------------------------------------------------------------------------------>
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style2.css">
+    </head>
+    <body id="page-top">
+        <!-- Navigation------------------------------------------------------------------------------------------------------------->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand logo" href="#page-top"><img class="header-img" alt="..." src="assets/img/download.png"> &nbsp;&nbsp;Belleville <strong>Running</strong> Club</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#about">Membership</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#groupRuns">Group Runs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#coach">Training</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead--------------------------------------------------------------------------------------------------------------->
+         <video autoplay loop muted plays-inline type="video/mp4" id="bg-video">
+                <source src="assets/video/brcvid.mp4">
+         </video>
+        <header class="masthead video-overlay">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 align-items-center justify-content-center text-center textcontainer">
+                    <div class="col-lg-8 align-self-end">
+                        <h4 id="location">A Club of runners in Belleville, Illinois</h4>
+                        <h1 class="text-white font-weight-bold">Running is better in a <strong class="head-strong">club!</strong></h1>
+                        <hr class="divider">
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">Become a member and join us in our family of like minded runners who work on helping each other grow. Getting a membership also grants you access to special discounts and events.</p>
+                        <a class="btn btn-primary btn-xl" href="#about" id="headerBtn">Find Out More</a>
+                    </div>
+                </div>
+                <a class="btn btn-primary btn-xl" target="_blank" href="https://teamlocker.squadlocker.com/#/lockers/belleville-running-club" id="gearBtn">Get BRC Gear</a>
+            </div>
+        </header>
+        <!-- About Memberships ----------------------------------------------------------------------------------------------------->
+        <section class="page-section bg-primary" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">Membership benefits include:</h2>
+                        <hr class="divider divider-light">
+                        <ul class="text-white-85 mb-4" id="membership-list">
+                            <li>Discounts on regional races, on BRC gear, and at sports-related retailers</li>
+                            <li>RRCA membership and RRCA Footnotes publication</li>
+                            <li>Group runs and training runs</li>
+                            <li>Access to training partners of all abilities</li>
+                            <li>Year-round social activities</li>
+                        </ul>
+                        <a class="btn btn-light btn-xl" target="_blank" href="https://runsignup.com/MemberOrg/BellevilleRunningClub/Register">Join or renew BRC membership</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- GroupRuns-------------------------------------------------------------------------------------------------------------->
+        <section class="page-section" id="groupRuns">
+            <div class="container px-4 px-lg-5">
+                <!--Weather segment--------------------------------------------------------------------------------------------->
+                <h2 class="text-center mt-0 weatherTitle">Get Prepared For The Day!</h2>
+                <hr class="divider">
+                <div id="weather" class="d-none d-lg-block ms-3">
+                    <a class="weatherwidget-io" href="https://forecast7.com/en/38d52n89d98/belleville/?unit=us" data-label_1="BELLEVILLE" data-label_2="Forecast" data-days="3" data-textcolor="#ed563b" >BELLEVILLE Forecast</a>
+                    <script>
+                    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                    </script>
+                </div>
+                <!--rest of groupruns-->
+                <h2 class="text-center mt-0">Weekly Group Runs</h2>
+                <h5 class="text-center mt-0">We meet twice per week on Thursday Evenings and Saturday Mornings.</h5>
+                <hr class="divider">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-6 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="fa-solid fa-person-walking icon-color"></i></div>
+                            <h3 class="h4 mb-2">3 Mile Route</h3>
+                            <a class="btn btn-light btn-xl routeBtn" target="_blank" href="https://www.mapmyrun.com/routes/view/10951380">View Here</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="fa-solid fa-person-running icon-color"></i></div>
+                            <h3 class="h4 mb-2">5 Mile Route</h3>
+                            <a class="btn btn-light btn-xl routeBtn" target="_blank" href="https://www.strava.com/routes/793981">View Here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 spacer">
+                    <div class="col-lg-6 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="fa-solid fa-calendar icon-color"></i></div>
+                            <h3 class="h4 mb-2">Thursday Evenings at 6PM CST - 3 &amp; 5 mile options</h3>
+                            <p class="text-muted mb-0"><a target="_blank" href="https://www.casamariamex.com/">Parking Lot of Casa Maria Mexican Restaurant</a> <br> 100 N High St, Belleville, IL 62220</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="fa-solid fa-calendar icon-color"></i></div>
+                            <h3 class="h4 mb-2">Saturday Mornings at 8AM CST - 3 &amp; 5 mile options</h3>
+                            <p class="text-muted mb-0"><a href="https://www.longstorycoffee.com/" target="_blank">LongStory Coffee</a> <br> 732 S Illinois St, Belleville, IL 62220</p>
+                        </div>
+                    </div>
+                </div>
+                <iframe title="map" id="map" src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6243.666369841956!2d-89.982815!3d38.514558!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzjCsDMwJzUyLjQiTiA4OcKwNTgnNTMuNSJX!5e0!3m2!1sen!2sus!4v1760621081192!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <!-- Gallery----------------------------------------------------------------------------------------------------------------->
+        <div id="portfolio">
+            <div class="container-fluid p-0">
+                <h1 class="text-center" id="gallery">Gallery</h1>
+                <div class="row g-0">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/may26-2025.jpg" title="May 26th, 2025">
+                            <img class="img-fluid" src="assets/img/may26-2025.jpg" alt="...">
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-75">May 26th</div>
+                                <div class="project-name">2025</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/November9-2024.jpg" title="November 9th, 2024">
+                            <img class="img-fluid" src="assets/img/November9-2024.jpg" alt="...">
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-75">November 9th</div>
+                                <div class="project-name">2024</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/may11-2024.jpg" title="May 11th, 2024">
+                            <img class="img-fluid" src="assets/img/may11-2024.jpg" alt="...">
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-75">May 11th</div>
+                                <div class="project-name">2024</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/January3-2024.jpg" title="January 3rd, 2024">
+                            <img class="img-fluid" src="assets/img/January3-2024.jpg" alt="...">
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-75">January 3rd</div>
+                                <div class="project-name">2024</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/April29-2023.jpg" title="April 29th, 2023">
+                            <img class="img-fluid" src="assets/img/April29-2023.jpg" alt="...">
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-75">April 29th</div>
+                                <div class="project-name">2023</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/January5-2023.jpg" title="January 5th, 2023">
+                            <img class="img-fluid" src="assets/img/January5-2023.jpg" alt="...">
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-category text-white-75">January 5th</div>
+                                <div class="project-name">2023</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Call To Action--------------------------------------------------------------------------------------------------------->
+        <section class="page-section bg-dark text-white" id="callToAction">
+            <div class="cta-container" id="coach">
+                <div class="container px-4 px-lg-5 text-center">
+                    <h2 class="mb-4">Spring 2025 Couch to <strong>5K Training</strong></h2>
+                    <img src="assets/img/line-dec.png" alt="waves">
+                    <ul id="coachInfo">
+                        <li>Start date of February 18th 2025</li>
+                        <li>Trains individuals to complete the <a href="http://www.lawdayrun.com/" target="_blank">Law Day Run</a> in Belleville, Illinois.</li>
+                        <li>Tuesdays 6 p.m. at Belleville East High School</li>
+                        <li>Sundays 10:30 a.m. at Southside Park.</li>
+                    </ul>
+                    <div class="tierContainer">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <h4>Tier 1 - $20</h4>
+                                <ul>
+                                    <li>Weekly Group Training Sessions</li>
+                                    <li>C25K Completion T-Shirt</li>
+                                </ul>
+                                <a class="btn btn-light btn-xl routeBtn" target="_blank" href="https://checkout.square.site/merchant/9FDT9AJVTNQ8Z/checkout/OLWE7LQWW46AB7WBCY4RI3WD">Buy Here</a>
+                            </div>
+                            <div class="col-lg-3">
+                                <h4>Tier 2 - $30</h4>
+                                <ul>
+                                    <li>1 year Belleville Running Club Membership</li>
+                                    <li>Weekly Group Training Sessions</li>
+                                    <li>C25K Completion T-Shirt</li>
+                                </ul>
+                                <a class="btn btn-light btn-xl routeBtn" target="_blank" href="https://checkout.square.site/merchant/9FDT9AJVTNQ8Z/checkout/76N3EY727QUBJW43Y2CTTBTP">Buy Here</a>
+                            </div>
+                            <div class="col-lg-3">
+                                <h4>Tier 3 - $55</h4>
+                                <ul>
+                                    <li>2025 Law Day 5K Race Entry</li>
+                                    <li>1 year Belleville Running Club Membership</li>
+                                    <li>Weekly Group Training Sessions</li>
+                                    <li>C25K Completion T-Shirt</li>
+                                </ul>
+                                <a class="btn btn-light btn-xl routeBtn" target="_blank" href="https://checkout.square.site/merchant/9FDT9AJVTNQ8Z/checkout/SRVL2IAZ2CNRZU5JD4JAN644">Buy Here</a>
+                            </div>
+                            <div class="col-lg-3">
+                                <h4>Tier 4 - $75(Limited)</h4>
+                                <ul>
+                                    <li>Personalized Training Plan</li>
+                                    <li>2025 Law Day 5K Race Entry</li>
+                                    <li>1 year Belleville Running Club Membership</li>
+                                    <li>Weekly Group Training Sessions</li>
+                                    <li>C25K Completion T-Shirt</li>
+                                </ul>
+                                <a class="btn btn-light btn-xl routeBtn" target="_blank" href="https://checkout.square.site/merchant/9FDT9AJVTNQ8Z/checkout/M7Q3QA46TSHSNPZI7SWQUSVO">Buy Here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Footer------------------------------------------------------------------------------------------------------------------->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2025 Belleville Running Club</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
